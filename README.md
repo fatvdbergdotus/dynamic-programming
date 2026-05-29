@@ -8,4 +8,4 @@ A **bottom-up algorithm** solves the same problem in the opposite direction. Ins
 An **optimized algorithm** further improves efficiency by reducing unnecessary memory usage or computations. For example, in many dynamic programming problems, only a small number of previous results are needed to calculate the next value. Instead of storing an entire table, the algorithm keeps only the required values, reducing memory consumption while maintaining the same running time. Such optimizations are important when working with large datasets or performance-critical applications.
 
 # Different kinds of problems
-[Serangements](derangements.ipynb) In combinatorial mathematics, a derangement is a permutation of the elements of a set in which no element appears in its original position. In other words, a derangement is a permutation that has no fixed points.
+[Derangements](derangements.ipynb) In combinatorial mathematics, a derangement is a permutation of the elements of a set in which no element appears in its original position. In other words, a derangement is a permutation that has no fixed points.
