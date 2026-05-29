@@ -1,2 +1,10 @@
-# dynamic-programming
-Different problems solved using recursing, top-down, bottom-up and optimized algorithms.
+# Different kinds of algorithms
+A **recursive algorithm** solves a problem by repeatedly calling itself on smaller versions of the same problem until a simple base case is reached. Recursion is often easy to understand and closely resembles mathematical definitions, making it a natural approach for problems involving trees, graphs, and divide-and-conquer techniques. However, recursive algorithms can be inefficient when they repeatedly solve the same subproblems, leading to excessive computation and increased execution time.
+
+A **top-down algorithm** improves upon recursion through a technique called memoization. The algorithm still uses recursive calls, but it stores previously computed results so that the same calculation is never performed twice. This approach combines the simplicity of recursion with significantly better performance, making it particularly useful for dynamic programming problems such as calculating Fibonacci numbers, finding shortest paths, or solving optimization problems.
+
+A **bottom-up algorithm** solves the same problem in the opposite direction. Instead of starting with the original problem and breaking it down recursively, it begins with the smallest subproblems and gradually builds the solution step by step. This approach avoids the overhead of recursive function calls and often results in faster execution. Bottom-up methods are commonly implemented using loops and tables to store intermediate results.
+
+An **optimized algorithm** further improves efficiency by reducing unnecessary memory usage or computations. For example, in many dynamic programming problems, only a small number of previous results are needed to calculate the next value. Instead of storing an entire table, the algorithm keeps only the required values, reducing memory consumption while maintaining the same running time. Such optimizations are important when working with large datasets or performance-critical applications.
+
+# Different kinds of problems
